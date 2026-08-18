@@ -221,16 +221,38 @@
       <input type="text" id="q1_nome" name="nome_negocio" required>
     </div>
     <div class="field">
-      <label for="q1_1">como você gostaria que sua marca fosse percebida?</label>
-      <textarea id="q1_1" name="marca_percebida"></textarea>
+      <label>como você gostaria que sua marca fosse percebida?</label>
+      <div class="choices">
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="acolhedora"><span>acolhedora</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="sofisticada"><span>sofisticada</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="moderna"><span>moderna</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="tradicional"><span>tradicional</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="divertida"><span>divertida</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="tecnica"><span>técnica</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="exclusiva"><span>exclusiva</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="acessivel"><span>acessível</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="inovadora"><span>inovadora</span></label>
+        <label class="choice"><input type="checkbox" name="marca_percebida" value="artesanal"><span>artesanal / feita à mão</span></label>
+      </div>
+      <span class="hint">quer detalhar mais? escreve aqui embaixo</span>
+      <textarea id="q1_1" name="marca_percebida_detalhe" placeholder="opcional"></textarea>
     </div>
     <div class="field">
       <label for="q1_2">quais 3 a 5 palavras definem sua marca?</label>
       <input type="text" id="q1_2" name="palavras_marca">
     </div>
     <div class="field">
-      <label for="q1_3">qual é o principal objetivo do seu perfil hoje?</label>
-      <textarea id="q1_3" name="objetivo_perfil"></textarea>
+      <label>qual é o principal objetivo do seu perfil hoje?</label>
+      <div class="choices">
+        <label class="choice"><input type="checkbox" name="objetivo_perfil" value="atrair_clientes"><span>atrair novos clientes</span></label>
+        <label class="choice"><input type="checkbox" name="objetivo_perfil" value="autoridade"><span>fortalecer autoridade</span></label>
+        <label class="choice"><input type="checkbox" name="objetivo_perfil" value="engajamento"><span>aumentar engajamento</span></label>
+        <label class="choice"><input type="checkbox" name="objetivo_perfil" value="vender"><span>vender direto pelo perfil</span></label>
+        <label class="choice"><input type="checkbox" name="objetivo_perfil" value="educar"><span>educar o público</span></label>
+        <label class="choice"><input type="checkbox" name="objetivo_perfil" value="comunidade"><span>criar comunidade</span></label>
+      </div>
+      <span class="hint">quer detalhar mais? escreve aqui embaixo</span>
+      <textarea id="q1_3" name="objetivo_perfil_detalhe" placeholder="opcional"></textarea>
     </div>
     <div class="field">
       <label for="q1_4">o que você quer que uma pessoa pense ou sinta ao entrar no seu perfil?</label>
@@ -316,16 +338,35 @@
     <p class="block-note">isso evita eu criar algo que você depois vai odiar</p>
 
     <div class="field">
-      <label for="q3_1">existe algum estilo visual que você não quer para o seu perfil?</label>
-      <textarea id="q3_1" name="estilo_nao_quer"></textarea>
+      <label>existe algum estilo visual que você não quer para o seu perfil?</label>
+      <div class="choices">
+        <label class="choice"><input type="checkbox" name="estilo_nao_quer" value="minimalista_demais"><span>minimalista demais</span></label>
+        <label class="choice"><input type="checkbox" name="estilo_nao_quer" value="cores_vibrantes"><span>cores muito vibrantes</span></label>
+        <label class="choice"><input type="checkbox" name="estilo_nao_quer" value="clean_generico"><span>"clean" genérico</span></label>
+        <label class="choice"><input type="checkbox" name="estilo_nao_quer" value="comercial_demais"><span>visual muito comercial</span></label>
+        <label class="choice"><input type="checkbox" name="estilo_nao_quer" value="textos_longos"><span>textos longos nas artes</span></label>
+        <label class="choice"><input type="checkbox" name="estilo_nao_quer" value="filtros_pesados"><span>filtros pesados</span></label>
+        <label class="choice"><input type="checkbox" name="estilo_nao_quer" value="vibe_corporativa"><span>vibe corporativa</span></label>
+      </div>
+      <span class="hint">outro estilo que você não quer? escreve aqui</span>
+      <textarea id="q3_1" name="estilo_nao_quer_detalhe" placeholder="opcional"></textarea>
     </div>
     <div class="field">
       <label for="q3_2">existe algum tipo de fonte ou estética que você não gosta?</label>
       <textarea id="q3_2" name="fonte_nao_gosta"></textarea>
     </div>
     <div class="field">
-      <label for="q3_3">que tipo de conteúdo você não gostaria de publicar?</label>
-      <textarea id="q3_3" name="conteudo_nao_publicar"></textarea>
+      <label>que tipo de conteúdo você não gostaria de publicar?</label>
+      <div class="choices">
+        <label class="choice"><input type="checkbox" name="conteudo_nao_publicar" value="dancas"><span>vídeos dançando</span></label>
+        <label class="choice"><input type="checkbox" name="conteudo_nao_publicar" value="humor_memes"><span>humor / memes</span></label>
+        <label class="choice"><input type="checkbox" name="conteudo_nao_publicar" value="polemica"><span>conteúdo polêmico</span></label>
+        <label class="choice"><input type="checkbox" name="conteudo_nao_publicar" value="promocao_agressiva"><span>promoção agressiva</span></label>
+        <label class="choice"><input type="checkbox" name="conteudo_nao_publicar" value="vida_pessoal"><span>vida pessoal exposta</span></label>
+        <label class="choice"><input type="checkbox" name="conteudo_nao_publicar" value="trends"><span>challenges / trends</span></label>
+      </div>
+      <span class="hint">outro tipo de conteúdo que não quer? escreve aqui</span>
+      <textarea id="q3_3" name="conteudo_nao_publicar_detalhe" placeholder="opcional"></textarea>
     </div>
     <div class="field">
       <label for="q3_4">existe algum assunto que você não quer abordar nas redes?</label>
@@ -412,8 +453,19 @@
     <p class="block-note">o que vai (e o que não vai) aparecer</p>
 
     <div class="field">
-      <label for="q5_1">quais assuntos você gostaria que aparecessem no perfil?</label>
-      <textarea id="q5_1" name="assuntos_aparecer"></textarea>
+      <label>quais assuntos você gostaria que aparecessem no perfil?</label>
+      <div class="choices">
+        <label class="choice"><input type="checkbox" name="assuntos_aparecer" value="bastidores"><span>bastidores</span></label>
+        <label class="choice"><input type="checkbox" name="assuntos_aparecer" value="depoimentos"><span>depoimentos de clientes</span></label>
+        <label class="choice"><input type="checkbox" name="assuntos_aparecer" value="dicas_educativo"><span>dicas / conteúdo educativo</span></label>
+        <label class="choice"><input type="checkbox" name="assuntos_aparecer" value="promocoes"><span>promoções</span></label>
+        <label class="choice"><input type="checkbox" name="assuntos_aparecer" value="novidades"><span>novidades / lançamentos</span></label>
+        <label class="choice"><input type="checkbox" name="assuntos_aparecer" value="rotina"><span>rotina do dia a dia</span></label>
+        <label class="choice"><input type="checkbox" name="assuntos_aparecer" value="equipe"><span>equipe</span></label>
+        <label class="choice"><input type="checkbox" name="assuntos_aparecer" value="resultados"><span>resultados / cases</span></label>
+      </div>
+      <span class="hint">outro assunto que você quer? escreve aqui</span>
+      <textarea id="q5_1" name="assuntos_aparecer_detalhe" placeholder="opcional"></textarea>
     </div>
     <div class="field">
       <label for="q5_2">quais assuntos você não quer abordar?</label>
